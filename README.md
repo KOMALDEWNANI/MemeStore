@@ -5,7 +5,7 @@ An Android application built using kotlin that generates random memes by using [
 2. API Calls
 3. Volley Library
 4. Glide Library
-5. Sharinng text to another applications using Intents.
+5. Sharing text to another applications using Intents.
 6. Styling Applications
 7. Adding icon of Android Applications
 
