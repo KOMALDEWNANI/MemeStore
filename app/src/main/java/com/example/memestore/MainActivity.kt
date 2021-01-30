@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         binding.progressBar.visibility = View.VISIBLE
 
 
-        val queue= Volley.newRequestQueue(this)
+
         val url = "https://meme-api.herokuapp.com/gimme"
 
 
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                     binding.progressBar.visibility = View.GONE
                 }
         )
-        queue.add(jsonObjectRequest)
+        MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest)
 
     }
     fun Share(view: View) {
